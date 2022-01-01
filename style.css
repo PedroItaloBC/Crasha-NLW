@@ -16,9 +16,10 @@ body {
   background-color: var(--black);
 }
 main {
-  background: url(images/Mobile.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/Mobile.svg) no-repeat center/cover;
+  width: 375vw;
+  min-height: 100px;
+  height: 812vh;
 }
 .conteiner {
   max-width: 250px;
